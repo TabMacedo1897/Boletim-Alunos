@@ -1,7 +1,7 @@
 function nomePais() {
     var nomes = document.querySelector("#nomesP").value;
     if (nomes.trim() !== "") {
-        var resposta = `A ${nomes}, é ótima em dar respostas analíticas em sala de aula.<br><br>
+        var resposta = `A ${nomes} é ótima em dar respostas analíticas em sala de aula, sempre muito comunicativa.<br><br>
         
         A ${nomes} é uma aluna super criativa, e demonstra altas habilidades em design em sala de aula. Sempre dá boas sugestões para implementar nos projetos.<br><br>
         
