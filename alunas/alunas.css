@@ -14,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(90deg, #fff 0%, #0e05b0 100%);
+    background: linear-gradient(90deg, #fff 0%, #f90e5d 100%);
 }
 
 /* Estilização do .container */
@@ -31,19 +31,20 @@ body {
 }
 .menu{
     float: right;
-    margin-bottom: 200px;
     margin-right: 30px;
+    margin-bottom: 200px;
 }
 .menu li{
     text-decoration: none;
     list-style: none;
-    background-color: #f90e5d;
+    background-color: #0e05b0;
     padding: 20px;
     border-radius: 10px;
     font-size: 16pt;
     color: white;
     cursor: pointer;
     font-weight: bold;
+ 
 }
 .menu li:hover{
     transform: scale(1.1);
@@ -73,7 +74,7 @@ body {
 .container button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #0e05b0;
+    background-color: #f90e5d;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -85,7 +86,7 @@ body {
 
 /* Efeito de hover para o botão */
 .container button:hover {
-    background-color: #0a0220;
+    background-color: #580036;
     opacity: 1.1;
 }
 
